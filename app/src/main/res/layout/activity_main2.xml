@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".Main2Activity">
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:padding="8dp"
+            android:text="RUNNING"
+            android:textSize="40dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:layout_marginTop="60dp"
+            android:src="@drawable/r2" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:padding="25dp"
+            android:text="    As a form of cardio excercise that's easily accesible, running is one of the most straightforward ways to get the important benefits of excercise."
+            android:textColor="@android:color/black" />
+
+
+        <Button
+            android:id="@+id/c1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="17dp"
+            android:background="@drawable/bg"
+            android:fontFamily="cursive"
+            android:text="              Next            "
+            android:textColor="#f0ffff"
+            android:textSize="25dp" />
+
+
+</LinearLayout>
