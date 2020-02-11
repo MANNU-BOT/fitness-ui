@@ -6,7 +6,9 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -18,7 +20,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="130dp"
+                android:layout_gravity="center"
                 android:fontFamily="sans-serif-condensed-medium"
                 android:text="YOGA"
                 android:textSize="40dp" />
@@ -26,6 +28,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="300dp"
+                android:layout_gravity="center"
                 android:layout_marginTop="60dp"
                 android:src="@drawable/yoga" />
 
@@ -33,29 +36,28 @@
                 android:id="@+id/quantity"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:layout_margin="8dp"
-
                 android:padding="25dp"
                 android:text="    Yoga is a mind and body practice with ancient indian philosophy. Various styles of yoga combine physical postures,breathing techniques,and meditation and relaxation"
                 android:textColor="@android:color/black" />
 
             <Button
-                android:background="@drawable/bg"
                 android:id="@+id/b1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="55dp"
+                android:layout_gravity="center"
                 android:layout_marginTop="20dp"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/bg"
                 android:fontFamily="cursive"
                 android:text="          Let's Start         "
                 android:textColor="#f0ffff"
                 android:textSize="25dp" />
 
 
-
-
         </LinearLayout>
-
+    </ScrollView>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -5,17 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Main3Activity">
-
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent">
 
         <TextView
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="125dp"
+            android:layout_gravity="center"
             android:fontFamily="sans-serif-condensed-medium"
             android:padding="8dp"
             android:text="GYM"
@@ -24,6 +27,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="300dp"
+            android:layout_gravity="center"
             android:layout_marginTop="60dp"
             android:src="@drawable/d2" />
 
@@ -31,21 +35,24 @@
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:padding="25dp"
             android:text="Going to gym is good for your health and fitness! Helps you control your Weight,and makes you feel Happier"
             android:textColor="@android:color/black" />
 
         <Button
             android:id="@+id/d1"
-            android:background="@drawable/bg"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="65dp"
+            android:layout_gravity="center"
             android:layout_marginTop="25dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/bg"
             android:fontFamily="cursive"
             android:text="             Got It            "
             android:textColor="#f0ffff"
             android:textSize="25dp" />
     </LinearLayout>
+</ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
